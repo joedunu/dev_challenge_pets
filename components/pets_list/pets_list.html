@@ -1,0 +1,15 @@
+<div class="petsList">
+   <h3>Male</h3>
+    <ul>
+        <li ng-repeat="cat in petsAppCtrl.catsBelongingToMales">
+            {{cat.name}}
+        </li>
+    </ul>
+
+    <h3>Female</h3>
+    <ul>
+        <li ng-repeat="cat in petsAppCtrl.catsBelongingToFemales">
+            {{cat.name}}
+        </li>
+    </ul>
+</div>
