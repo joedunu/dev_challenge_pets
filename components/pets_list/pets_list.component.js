@@ -26,7 +26,6 @@ angular.module('petsApp', [])
             };
 
             self.$onInit = function () {
-                console.log('Executing onInit');
                 // The following can be utilized once CORS (Cross Origin Resource Sharing) is enable on the Web Service
                 // self.getPetsList().then(function(result){
                 //  self.pepoleList = result;
